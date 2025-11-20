@@ -58,7 +58,7 @@ To enhance analysis and filtering, several derived fields were created:
   - **High Usage** (>=41 Km)  
   - **Moderate Usage** (>=21 Km)  
   - **Lower Usage** (<21 Km)  
-  These buckets group bikes by how heavily they are used, based on Avg Daily Distance(Km).
+  These buckets group bikes by how heavily they are used, based on average daily distance (km).
   
 
 - `Engin Capacity Groups:`
@@ -71,7 +71,7 @@ To enhance analysis and filtering, several derived fields were created:
 - `Price Gap`  
   **Price Gap = Price (INR) - Resale Price (INR)**
  
-  This measures how much value the bike has lost from first sale to resale, and is used to study depreciation patterns by brand, owner type, and other attributes.
+  This measures the value loss of the bike from its initial sale to resale and is used to study depreciation patterns by brand, owner type, and other attributes.
 
 
 ## Dashboard Components
@@ -81,12 +81,12 @@ The main dashboard brings together multiple PivotTables and charts:
 
   Global filters that control all charts:
 
-   **State, Brand, City Tier, Fuel Type, Owner Type, Seller Type, Insurance Status, Avg Daily Distance levels(Km), Engin Capacity Groups**
+   **State, Brand, City Tier, Fuel Type, Owner Type, Seller Type, Insurance Status, Avg Daily Distance levels(Km), Engine Capacity Groups**
 
 
 - `Avg Resale Price per State`
 
-  Column chart displaying average resale price by Indian state,helping highlight states with relatively higher or lower resale values.
+  Column chart displaying average resale price by Indian state, helping highlight states with relatively higher or lower resale values.
 
 
 - `Avg Resale Price by Brand and City Tier`
@@ -138,7 +138,7 @@ The dashboard reveals several interesting patterns in the synthetic Indian motor
    - However, **high volume does not always equal the highest resale price**, which makes brand-wise comparison of price and price gap particularly insightful.
 
 4. **Effect of manufacturing year on resale price**  
-   - Newer model years (e.g., 2022–2024) expectedly show **higher average resale prices**, while older bikes from 2015–2017 trade at lower values.  
+   - Newer model years (e.g., 2022–2024) are expectedly to show **higher average resale prices**, while older bikes from 2015–2017 trade at lower values.  
    - The trend line across 2015–2024 highlights how **age-related depreciation** combines with any changes in market pricing over time.
    
    
@@ -150,7 +150,7 @@ Using a synthetic Indian motorbike resale dataset, the dashboard brings together
 While the data is not real-market data, the patterns are intentionally designed to mimic plausible resale behavior.  
 The result is a portfolio-ready project that demonstrates skills in:
 
-- Data cleaning and feature engineering (`Price Gap`, usage and engine groups)
+- Data cleaning and feature engineering (`Price Gap`, usage, and engine groups)
 - Building PivotTables and PivotCharts
 - Designing an interactive dashboard with slicers and filters
 - Communicating insights about depreciation and value retention  
@@ -171,6 +171,5 @@ The result is a portfolio-ready project that demonstrates skills in:
 
 
 
-```python
 
-```
+
